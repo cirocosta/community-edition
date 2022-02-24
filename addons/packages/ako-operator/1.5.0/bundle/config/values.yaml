@@ -19,29 +19,29 @@ akoOperator:
     avi_password: ""
     avi_cloud_name: "Default-Cloud"
     avi_service_engine_group: "Default-Group"
-    avi_management_cluster_service_engine_group: "MC-SEG"
-    avi_data_network: ""
-    avi_data_network_cidr: ""
-    avi_control_plane_network: ""
-    avi_control_plane_network_cidr: ""
-    avi_ca_data_b64: ""
+    avi_management_cluster_service_engine_group: null
+    avi_data_network: null
+    avi_data_network_cidr: null
+    avi_control_plane_network: null
+    avi_control_plane_network_cidr: null
+    avi_ca_data_b64: null
     avi_labels: '""'
     avi_cni_plugin: antrea
     avi_disable_static_route_sync: false
     avi_control_plane_ha_provider: false
-    avi_management_cluster_vip_network_name: ""
-    avi_management_cluster_vip_network_cidr: ""
-    avi_management_cluster_control_plane_vip_network_name: ""
-    avi_management_cluster_control_plane_vip_network_cidr: ""
+    avi_management_cluster_vip_network_name: null
+    avi_management_cluster_vip_network_cidr: null
+    avi_management_cluster_control_plane_vip_network_name: null
+    avi_management_cluster_control_plane_vip_network_cidr: null
     avi_control_plane_endpoint_port: 6443
-    avi_enable_evh: false
-    avi_l7_only: false
-    avi_services_api: false
-    avi_namespace_selector_label_key: ""
-    avi_namespace_selector_label_value: ""
-    avi_enable_rhi: false
-    avi_bgp_peer_labels: ""
-    avi_no_pg_for_sni: false
-    avi_advanced_l4: false
-    avi_auto_fqdn: disabled
-    avi_nsxt_t1_lr: test-t1-router
+    avi_enable_evh: null
+    avi_l7_only: null
+    avi_services_api: null
+    avi_namespace_selector_label_key: null
+    avi_namespace_selector_label_value: null
+    avi_enable_rhi: null
+    avi_bgp_peer_labels: null
+    avi_no_pg_for_sni: null
+    avi_advanced_l4: null
+    avi_auto_fqdn: null
+    avi_nsxt_t1_lr: null
